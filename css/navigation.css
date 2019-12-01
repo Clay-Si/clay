@@ -1,0 +1,54 @@
+*{
+	/**/
+	margin: 0;
+	padding: 0;
+}
+body{
+	backgroud:#eff3f5;
+}
+.nav{
+	height: auto;
+	width: 100%;
+	
+	
+	background:rgb(189,181,181);
+	position: fixed;/*固定在顶部*/
+	top: 0;/*离顶部距离为0*/
+	margin-bottom: 5px;
+}
+.nav ul{
+	/*清楚ul标签默认样式*/
+	width: auto;
+	list-style-type: none;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-left: 10%;
+	padding: 0;
+}
+
+.nav li{
+	float: left;
+	margin-right: 4%;
+	position: relative;
+	overflow: hidden;
+}
+
+.nav li a{
+	/*设置连接内容显示格式*/
+	display: block; /*显示为块元素可使整个区域可点击*/
+	color: white;
+	text-align: center;
+	padding: 6px;
+	overflow: hidden;
+	text-decoration: none;/*去除下划线*/
+}
+
+.nav li a:hover{
+	/*鼠标选中的时候为黑色*/
+	background-color: #111;
+}
+
+.nav ul li ul{
+	/*可以设置二级菜单*/
+}
+
