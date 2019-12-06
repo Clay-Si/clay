@@ -1,0 +1,44 @@
+.body {
+
+}
+.page{
+	float: left;
+}
+
+.page iframe{
+	margin-top: 150px;
+	margin-left: 150px;
+	width: 800px;
+	height: 500px;
+	border: 1px solid black;
+}
+
+.tab_bar{
+	float: left;
+	margin-top: 150px;
+	margin-left: 10px;
+	height:500px;
+	width:190px;
+	border: 1px solid black;
+
+}
+
+.tab_bar ul{
+		list-style-type: none;
+}
+
+.tab_bar li{
+	float: left;
+	margin: 5px;
+}
+
+.tab_bar li a{
+	/*显示为块元素可使整个区域可点击*/
+	display: block;
+	color: white;
+	background-color: gray;
+	text-align: center;
+	padding: 3px;
+	overflow: hidden;
+	text-decoration: none;
+}
